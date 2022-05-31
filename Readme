@@ -1,2 +1,10 @@
 This repo contains a very fast point cloud approximation method;
-When it comes to the point cloud which contains millions or even 10 millions of points
+Suppose there is a large and dense point cloud of objects with complex geometry. 
+There is an object with complex geometry that can be approximated by a smooth univariate function. 
+In general. For such a point cloud, approximation using least squares is usually difficult. 
+However, in most cases, a "near-best" approximation is as good as the "best" approximation but is much easier and faster to compute.
+A fast method for approximating point clouds using Chebyshev polynomials is described here, which is based on the interpolation of second-kind Chebyshev points. 
+It is possible to compute the unknown parameters by FFT, which is very efficient. 
+In particular, it is extremely efficient for higher-order polynomials.
+Therefore, the focus of this method is not on sparse point clouds or point clouds that can be approximated by functions of a few parameters, 
+but on large dense point clouds, where even millions of unknown parameters need to be determined.
