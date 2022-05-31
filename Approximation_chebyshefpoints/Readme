@@ -1,0 +1,4 @@
+This fold contains an approximation method using the Chebyshev points;
+The purpose of this method is to demonstrate the superiority of fitting point cloud using Chebyshev points;
+The script "chebybased_equal.m" shows if we use equally placed points to approximate the surface, it will end in Runge Phonominen;
+The script "chebybased_chebypoints.m" shows if we use chebyshev points to approximate the surface, the results is good;
