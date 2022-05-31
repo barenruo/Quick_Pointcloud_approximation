@@ -8,3 +8,4 @@ It is possible to compute the unknown parameters by FFT, which is very efficient
 In particular, it is extremely efficient for higher-order polynomials.
 Therefore, the focus of this method is not on sparse point clouds or point clouds that can be approximated by functions of a few parameters, 
 but on large dense point clouds, where even millions of unknown parameters need to be determined.
+Some details are stil under updating...
